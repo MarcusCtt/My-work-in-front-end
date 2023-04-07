@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka:wght@300&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fredoka', sans-serif;
+}
+
+body{
+   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+    
+}
+
+.casulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    border-radius: 0px 0px 100px 100px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    
+}
+form{
+    position: absolute;
+    top: 70%;
+    opacity: 0.8;
+    background-color: #4A92F7 ;
+    border-color: 2px salmon;
+    border-radius: 30px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
+    padding: 3%;
+    position: relative;
+   
+}
+
+#button{
+    justify-self: flex-end;
+    margin-right: 10px;
+    border-radius: 8px; 
+    padding: 60px;
+   grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #72A686;
+    border: none;
+    padding: 10px;
+}
+
+form label{
+    
+   
+    display: flex;
+    justify-content: flex-end;
+}
+form input{
+border-style: solid;
+    border-radius: 5px;
+    border-color: #4AF7D5;
+    background-color: #4A92F7;
+}
+
+form svg{
+    
+    height: 80px;
+    width: 100px;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+
+#select{
+    
+    grid-column: 2;
+    
+}
